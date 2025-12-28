@@ -1,0 +1,10 @@
+# ChatWith Dependencies
+
+# Anthropic Claude API
+anthropic>=0.40.0
+
+# OpenAI ChatGPT API
+openai>=1.0.0
+
+# Google Gemini API
+google-genai>=0.1.0
