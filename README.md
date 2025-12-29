@@ -112,7 +112,7 @@ chatwith gemini
 
 ### Example Session
 
-```
+````
 $ chatwith claude
 ChatWith [claude-sonnet-4-5-20250929]
 ─────────────────────────────────────
@@ -136,7 +136,7 @@ That's it! Python's syntax is designed to be clean and intuitive.
 
 You: /exit
 Goodbye!
-```
+````
 
 ## Commands
 
