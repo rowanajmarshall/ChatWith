@@ -152,6 +152,7 @@ You: /help
 Available commands:
   /help   - Show this help message
   /clear  - Clear conversation history
+  /cls    - Clear the terminal screen
   /system - Edit custom system prompt for current model
   /exit   - Exit the application
   /quit   - Exit the application
@@ -167,6 +168,16 @@ Conversation history cleared.
 ```
 
 This is useful when you want to start a fresh conversation without restarting the application.
+
+### /cls
+
+Clear the terminal screen, similar to the `clear` command or Command-L on Mac. This doesn't affect conversation history.
+
+```
+You: /cls
+```
+
+This is useful when your terminal gets cluttered and you want a clean view.
 
 ### /system
 
@@ -341,7 +352,7 @@ For issues, questions, or contributions, please refer to the project repository 
 - Streaming responses with loading animation
 - Conversation history management
 - Custom system prompts per model
-- Special commands (/help, /clear, /system, /exit)
+- Special commands (/help, /clear, /cls, /system, /exit)
 - Comprehensive test coverage
 
 ## Acknowledgments

@@ -158,6 +158,7 @@ Note: The `...` loading animation appears on a new line and clears when the resp
 **Special Commands**:
 - `/exit` or `/quit` - Exit the application
 - `/clear` - Clear conversation history
+- `/cls` - Clear the terminal screen
 - `/help` - Show available commands
 - `/system` - Edit custom system prompt for current model
 
@@ -394,7 +395,7 @@ The following questions have been resolved:
 - ✅ **Default models**: Claude Sonnet 4.5, GPT-5.2, Gemini 2.5 Flash
 - ✅ **Context management**: Keep all messages (no automatic truncation)
 - ✅ **Dependencies**: Use official provider SDKs for better streaming support
-- ✅ **Special commands**: `/exit`, `/quit`, `/help`, `/clear`, `/system`
+- ✅ **Special commands**: `/exit`, `/quit`, `/help`, `/clear`, `/cls`, `/system`
 - ✅ **Loading animation**: Display on new line with dots
 - ✅ **Color support**: Plain text for MVP, colors deferred to future
 - ✅ **Model selection flags**: Deferred to future enhancement

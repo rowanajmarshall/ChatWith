@@ -460,6 +460,7 @@ def show_help():
     print("\nAvailable commands:")
     print("  /help   - Show this help message")
     print("  /clear  - Clear conversation history")
+    print("  /cls    - Clear the terminal screen")
     print("  /system - Edit custom system prompt for current model")
     print("  /exit   - Exit the application")
     print("  /quit   - Exit the application")
@@ -494,6 +495,11 @@ def chat_loop(provider: LLMProvider):
                 provider.conversation_history.clear()
                 print("Conversation history cleared.")
                 print()
+                continue
+            elif user_input == "/cls":
+                # Clear the terminal screen using ANSI escape codes
+                print("\033[2J\033[H", end="")
+                sys.stdout.flush()
                 continue
             elif user_input == "/system":
                 provider.system_prompt_manager.edit_prompt(provider.model)
